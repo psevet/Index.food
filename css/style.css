@@ -116,7 +116,10 @@ body {
 .button-default {
     background: #FFFFFF;
     color:#5F5F61;
-    border-radius: 50px;
+    border: none;
+}
+.button-active {
+    border: 2px solid #5F5F61;
 }
 .button {
     cursor: pointer;
@@ -365,6 +368,10 @@ body {
     line-height: 19px;
     color: #F37321;
 }
+.button-outline:hover {
+    color: rgb(255, 255, 255);
+    background: #FFA871;
+}
 .button-center{
     display: block;
     margin: auto;
@@ -409,7 +416,10 @@ body {
     line-height: 22px;
     color: #49494F;
 }
-
+.benefit-card:hover, .benefit-card:hover > * {
+    background: #F37321;
+    color:rgb(255, 255, 255);
+}
 footer {
     height: 181px;
     padding: 40px 0px;
