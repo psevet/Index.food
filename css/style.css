@@ -369,8 +369,13 @@ body {
     color: #F37321;
 }
 .button-outline:hover {
-    color: rgb(255, 255, 255);
-    background: #FFA871;
+    animation: hover_button 0.5s linear 0s 1 normal forwards;
+}
+@keyframes hover_button {
+    100% { 
+        color: rgb(255, 255, 255);
+        background: #FFA871;    
+    }
 }
 .button-center{
     display: block;
